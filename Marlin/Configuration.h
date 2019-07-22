@@ -863,12 +863,12 @@
  *      O-- FRONT --+
  *    (0,0)
  */
-#define X_PROBE_OFFSET_FROM_EXTRUDER 0     // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER 0   // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -15.9 // Z offset: -below +above  [the nozzle] - DaHai: For Type 2 Probe!!!
+#define X_PROBE_OFFSET_FROM_EXTRUDER 38   // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 28   // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.4 // Z offset: -below +above  [the nozzle] - DaHai: For Type 2 Probe!!!
 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 10 // DaHai: Keeps the Probe Body from crashing into the bed clamps
+#define MIN_PROBE_EDGE 20 // DaHai: Keeps the Probe Body from crashing into the bed clamps
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 4000
